@@ -1,0 +1,221 @@
+.first-section{
+    position: relative;
+    z-index: -1;
+    background-image: url("../img/membership/membership-bg.png");
+    color:#fff;
+    background-attachment:fixed;
+    background-size: cover;
+    overflow: hidden;
+    padding:250px 0 100px 0;
+}
+.first-section h2 {
+    color: #fff;
+}
+.first-section:before{
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0, 67, 98, 0.8);
+}
+.first-section .part-o{
+    padding:0;
+    margin-bottom:80px;
+}
+.first-section .part-o .part{
+    padding:25px;
+    border-radius: 20px;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.first-section .part-o h2,.first-section .part-o p{
+    margin:0;
+}
+.first-section .part-o h2{
+    position: relative;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.first-section .last-g{
+    margin-bottom:30px;
+}
+.first-section .part-o h2:after{
+    content: "";
+    width: 82px;
+    height: 3px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #0071a6;
+}
+.first-section .part-o .paragraph{
+    color:#ccc;
+    font-size: 16px;
+    word-spacing: 2px;
+}
+.first-section .part-o ul{
+    margin-top:10px;
+    padding-left:30px;
+}
+.first-section .part-o ul li{
+    font-size: 16px;
+    word-spacing: 2px;
+}
+.first-section #writing{
+    color:#fff;
+    position: relative;
+    z-index: 0;
+    text-transform: uppercase;
+    word-spacing: 4px;
+}
+.first-section #writing h1 {
+    color: #fff;
+}
+.first-section #writing #groups{
+    font-size: 22px;
+}
+.first-section #writing{
+    padding:25px;
+    border-radius: 18px;
+    background-color: rgba(0, 113, 166, 0.7);
+    margin-bottom: 80px;
+}
+.first-section #writing h1{
+    margin: 0;
+}
+
+/* first section responsivity */
+@media(max-width:1050px){
+    .first-section .part-o,.first-section .part-o-2{
+        padding:0 10px;
+    }
+    
+}
+/* second section styling */
+.second-section .part{
+    padding:100px 0;
+    position: relative;
+    overflow: hidden;
+}
+.second-section .part-rev{
+    background-color: #f8f8f8;
+}
+.second-section .part .img-o{
+    position: relative;
+    padding: 0;
+    z-index: 1;
+}
+.second-section .part .img-o img{
+    padding:0;
+}
+.second-section .part .img-o:before{
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #0071a6;
+    z-index: -1;
+}
+.second-section .part .img-o.img-rev{
+    float: right;
+}
+.second-section .part .img-o.img-rev:before{
+    right:0;
+    left: 10px;
+}
+.second-section .part .details{
+    padding-left:40px;
+    box-sizing: border-box;
+    padding-top:10px;
+}
+.second-section .part .det-rev{
+    padding-left:0;
+    padding-right:40px;
+}
+
+.second-section .part .details h2{
+    margin: 0;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    padding-bottom:8px;
+    margin-bottom:10px;
+    position: relative;
+    font-size: 25px;
+}
+.second-section .part .details h2:after{
+    content:"";
+    width:120px;
+    height:3px;
+    position: absolute;
+    bottom:0;
+    left:0;
+    background-color:#0071a6;
+}
+.second-section .part .details p{
+    word-spacing: 3px;
+    font-size: 16px;
+}
+
+/* second section responsivity */
+/** responsivity **/
+@media(max-width:991px){
+    .second-section .part .img-o img{
+        width:100%;
+    }
+    .second-section .part .details{
+        padding-left:0;
+        padding-top:25px;
+        padding-right:15px;
+    }
+    .second-section .part .img-o.img-rev{
+        float: none;
+    }
+}
+@media(max-width:766px){
+    .first-section #writing h1{
+        font-size: 25px;
+    }
+    .first-section #writing #groups{
+        font-size: 17px;
+    }
+}
+@media(max-width:467px){
+    .first-section #writing h1{
+        font-size: 20px;
+    }
+    .first-section #writing #groups{
+        font-size: 14px;
+    }
+}
+/* third section styling */
+.third-section{
+    padding:100px 0;
+}
+.third-section .part{
+    margin-bottom: 50px;
+}
+.third-section .part h3{
+    margin: 0;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    padding-bottom:8px;
+    margin-bottom:10px;
+    position: relative;
+    font-size: 22px;
+}
+
+.third-section .part h3:after{
+    content:"";
+    width:120px;
+    height:3px;
+    position: absolute;
+    bottom:0;
+    left:0;
+    background-color:#0071a6;
+}
+.third-section #last-part{
+    margin:0;
+}

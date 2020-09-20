@@ -1,0 +1,117 @@
+body {
+  position: relative;
+    width: 100%;
+}
+header {
+    z-index: 50;
+    position: relative;
+    top:0px;
+}
+
+.exampleTitle {
+	padding: 200px 0 120px 0;
+	background-image:url("../img/chapters/ras/ras.png");
+    background-size: cover;
+    background-position: center;
+	text-transform: uppercase;
+	text-align: center;
+    position: relative;
+}
+.exampleTitle:before {
+    content:"";
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0, 67, 98, 0.8);
+}
+.exampleTitle h1{
+    color:#fff;
+    word-spacing: 5px;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+}
+.exampleTitle p{
+    color:#fff;
+    position: relative;
+    z-index: 2;
+    font-size: 18px;
+    word-spacing: 4px;
+    margin: 0;
+    padding-top:5px;
+}
+
+.contentRas{
+    padding:80px 0;
+}
+.contentRas ul{
+    margin:50px 0;
+}
+.contentRas ul li a{
+    transition:all .4s ease-in-out;
+    -webkit-transition:all .4s ease-in-out;
+    -moz-transition:all .4s ease-in-out;
+    -ms-transition:all .4s ease-in-out;
+    -o-transition:all .4s ease-in-out;
+}
+h2{
+    margin: 0;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    padding-bottom:8px;
+    margin-bottom:10px;
+    position: relative;
+}
+h2:after{
+    content:"";
+    width:120px;
+    height:3px;
+    position: absolute;
+    bottom:0;
+    left:0;
+    background-color:#0071a6;
+}
+#about{
+    
+}
+.part{
+    margin-bottom:30px;
+}
+.part h3{
+    text-transform: capitalize;
+    word-spacing: 3px;
+    margin:0;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.part h3:after{
+    content:"";
+    width:80px;
+    height:3px;
+    position: absolute;
+    bottom:0;
+    left:0;
+    background-color:#0071a6;
+}
+.part p{
+    font-size: 15px;
+}
+.team{
+    margin-top:50px;
+}
+.team img,.part .one-img{
+    padding:30px 0;
+    display: block;
+    width:700px;
+    margin: auto;
+}
+.comment{
+    margin-top:30px;
+    font-size: 15px;
+}
+#event-ul,#mem-ul{
+    margin: 20px 0;
+}

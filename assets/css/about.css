@@ -1,0 +1,118 @@
+.Title {
+	padding: 180px 0 80px 0;
+	background-image: url('../img/about/header-bg.png') ;
+	background-size: cover;
+	background-color: #1A80B6 ;
+    background-blend-mode: luminosity;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+.Title h1 {
+	color: #fff;
+}
+.IEEE_logo{
+	border-bottom-right-radius: 50px;
+	margin-top: 10px;
+	
+	backface-visibility: hidden;
+	vertical-align: top;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+}
+
+
+.IEEE_logo:hover{
+	zoom: 1;
+	filter: alpha(opacity=80);
+	-webkit-opacity: 0.5;
+	opacity: 0.8;
+}
+hr{
+	width: 50%;
+	border-color:#ccc;
+}
+.about_IEEE{
+	padding: 80px 0;
+}
+.about_IEEE h3{
+	color: #1a80b6;
+	margin-top: 20px;
+}
+.region8,.benha_sb,.Egypt_sec{
+	padding: 50px 0 ;
+	text-align: center;
+}
+.region8 p{
+	margin-top: 25px;
+}
+.benha_logo,.Egypt_sec_logo{
+	margin-top: 50px;
+	text-align: center;
+	backface-visibility: hidden;
+	vertical-align: top;
+}
+.R8_vision h4{
+	margin-top: 25px;
+}
+.R8_vision{
+	text-align: center;
+}
+.margin_top{
+	margin-top: 25px;
+}
+.benha_sb p{
+	width: 98%;
+	text-align: center;
+}
+.IEEE_egypt_sec{
+	margin-top: 20px;
+}
+.IEEE_egypt_sec p{
+	text-align: left;
+}
+
+.about_benha,.vision_benha,.mission_benha{
+	text-align: center;
+}
+.about_benha i,.vision_benha i,.mission_benha i
+{
+	text-align: center;
+	font-size: 100px;
+}
+.about_benha i:hover ,.vision_benha i:hover,.mission_benha i:hover {
+	zoom: 1;
+	color: #1a80b6;
+	filter: alpha(opacity=80);
+	-webkit-opacity: 0.5;
+	opacity: 1;
+}
+.short_desc{
+	padding: 50px 0;
+	background: url('../img/global/team.jpg') no-repeat;
+	width: 100%;
+	background-attachment: fixed;
+	background-size: cover;
+	/*background-color:  #1a80b6;*/
+	opacity: 0.74545120;
+    background-blend-mode: luminosity;
+	color: #fff;
+	text-align: center;	 
+		margin-bottom: 50px; 
+}
+.end{
+	text-align: center;
+	margin: 50px 0; 
+}
+@media (max-width: 768px) {
+	
+	.Egypt_sec_logo{
+		display: none;
+
+	}
+	.IEEE_logo{
+		margin-bottom: 30px;
+	}
+}
